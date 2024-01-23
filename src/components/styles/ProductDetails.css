@@ -175,3 +175,21 @@
 .action-buttons button:hover {
   background-color: #28a745; /* Change to your desired hover color */
 }
+.special-offers-container {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.special-offers-container h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+
+}
+
+.special-offers-container p{
+  margin: 5px 0;
+}
