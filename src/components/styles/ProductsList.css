@@ -1,0 +1,67 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product-link {
+    text-decoration: none;
+    color: inherit; /* Inherit the color from the parent */
+  }
+  
+  .product-link:hover {
+    /* Optional: Add hover styles for the link */
+    opacity: 0.8;
+  }
+  /* ProductCard.css */
+
+.product-card {
+  width: 23%; /* Set the width to approximately 23% to fit four cards in a row */
+  margin: 1%; /* Set a margin between the cards */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  overflow: hidden; /* Hide overflow to prevent uneven heights in flex container */
+}
+
+.product-image {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+  object-fit: cover; /* Ensure images cover the entire container without stretching */
+}
+
+.product-details {
+  padding: 10px; /* Add padding to the product details */
+  background-color: #fff; /* Set a background color for the product details */
+  border: 1px solid #ddd; /* Add a border around the product details */
+  border-radius: 0 0 8px 8px; /* Round the bottom corners */
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .product-card {
+    width: 30%; /* Adjust the width for medium-sized screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .product-card {
+    width: 45%; /* Adjust the width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: 48%; /* Adjust the width for even smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .product-card {
+    width: 100%; /* Full width for screens smaller than 576px */
+  }
+}

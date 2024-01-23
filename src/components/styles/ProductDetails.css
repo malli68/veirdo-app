@@ -1,0 +1,177 @@
+
+
+.product-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-info {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px; /* Adjust margin-bottom for spacing */
+}
+
+/* Add styles for related product cards as needed */
+.related-product-card {
+  flex: 0 0 calc(25% - 20px);
+  max-width: calc(25% - 20px);
+  margin-bottom: 20px;
+}
+
+/* Optional: Style for scrollbar (customize as needed) */
+.related-products::-webkit-scrollbar {
+  height: 8px;
+}
+
+.related-products::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+}
+.product-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.product-info {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  flex: 1;
+  /* margin-top: 20px; */
+}
+
+.related-products {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.todays-offers-card {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.size-chart {
+  margin-top: 20px;
+}
+
+.size-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.size-buttons button {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #000; /* Set text color to black */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.size-buttons button:focus,
+.size-buttons button:active {
+  background-color: #a740af; /* Change background color on focus or active state */
+}
+.size-buttons button:hover{
+  background-color: white;
+}
+.product-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product-info {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  flex: 1;
+  /* margin-top: 20px; */
+  text-align: center; /* Center the image within its container */
+}
+
+.product-image img {
+  max-width: 40%; /* Set a maximum width for the image */
+  max-height: 400px; /* Set a maximum height for the image */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.related-products {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+
+}
+.price-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.current-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.actual-price {
+  text-decoration: line-through;
+  color: #888;
+}
+.quantity-controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.quantity-controls button:hover{
+  background-color: black;
+}
+
+.add-to-cart-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  padding: 10px;
+  background-color: #28a745; /* Change to your desired color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.action-buttons button:hover {
+  background-color: #28a745; /* Change to your desired hover color */
+}

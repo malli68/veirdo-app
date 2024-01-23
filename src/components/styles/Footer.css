@@ -1,0 +1,135 @@
+
+/* .footer {
+    background-color: #1aa260; */
+   /* styles/Footer.css */
+/* .footer {
+    background-color: #1aa260; */
+   /* styles/Footer.css */
+
+/* Common styles */
+.footer {
+    background-color: #1aa260;
+    padding: 20px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* First Container */
+  .first-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .join-team h2 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Second Container */
+  .social-icons-container table {
+    width: 100%;
+  }
+  
+  .social-icons-container th,
+  .social-icons-container td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .social-icons-container th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .social-icons-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Third Container */
+  .additional-info {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .additional-info p {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .additional-info ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .additional-info ul li {
+    margin-bottom: 4px;
+  }
+  
+  .subscribe-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subscribe-options input {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .subscribe-options span {
+    margin-bottom: 8px;
+  }
+  
+  /* Fourth Container */
+  .copy-rights {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .first-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .search-bar {
+      margin-top: 10px;
+    }
+  
+    .social-icons-container {
+      overflow-x: auto;
+      max-width: 100%;
+    }
+  
+    .additional-info {
+      flex-direction: column;
+    }
+  }
+  
+  table{
+    margin-bottom: 20px;
+  }
+
+
+  
