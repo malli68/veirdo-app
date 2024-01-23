@@ -16,6 +16,7 @@ const productsSlice = createSlice({
       { id: 9, name: 'Product 9', image: SHIRT_IMAGE, offerPrice: 24.99, actualPrice: 39.99, discount: 38, rating: 4.2, colorAvailability: ['Black', 'White', 'Gray'] },
       { id: 10, name: 'Product 10', image: BLACk_IMAGE, offerPrice: 24.99, actualPrice: 39.99, discount: 38, rating: 4.2, colorAvailability: ['Black', 'White', 'Gray'] },  // Add more products as needed
       { id: 11, name: 'Product 11', image: T_IMAGE, offerPrice: 24.99, actualPrice: 39.99, discount: 38, rating: 4.2, colorAvailability: ['Black', 'White', 'Gray'] },
+      { id: 12, name: 'Product 12', image: T_IMAGE, offerPrice: 24.99, actualPrice: 39.99, discount: 38, rating: 4.2, colorAvailability: ['Black', 'White', 'Gray'] },
     ],
     currentProduct: null,
     likeCount: 0,

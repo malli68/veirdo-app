@@ -56,7 +56,9 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
-    transition: color 0.3s ease-in-out; /* Optional: Add a smooth color transition */
+    transition: color 0.3s ease-in-out;
+    margin-top: -10px;
+    margin-left: 125px;
   }
   
   .like-button:hover {
@@ -82,4 +84,6 @@
   .like-icon.liked {
     color: #ff69b4; /* Red when liked */
   }
-  
+  /* .title{
+    font-size: large;
+  } */
